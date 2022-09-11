@@ -1,4 +1,11 @@
 
+
+.flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 @mixin boundaries($isAuto: true) {
     width: 90%;
     max-width: 980px;

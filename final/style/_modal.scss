@@ -17,9 +17,7 @@
     visibility: visible;
   }
   .modal {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend .flexCenter;
     position: relative;
     
     background-color: #fff;

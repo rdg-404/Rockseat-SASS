@@ -4,8 +4,7 @@ header {
 
 header {
     .container {
-        display: flex;
-        align-items: center;
+       @extend .flexCenter;
         justify-content: space-between;
 
         @include boundaries();
