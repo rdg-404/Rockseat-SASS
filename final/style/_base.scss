@@ -9,10 +9,20 @@
 @mixin boundaries($isAuto: true) {
     width: 90%;
     max-width: 980px;
-
     @if $isAuto {
         margin: auto;
     }
+}
+
+
+@function set-text-color ($color){
+    @if lightness($color) > 70{
+        @return #222; 
+    }
+    @else {
+        @return #fff;
+    }
+
 }
 
 * {

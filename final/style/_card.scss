@@ -15,7 +15,7 @@ main {
   font-size: 1.6rem;
   line-height: 2.6rem;
   font-weight: 400;
-  color: #ecf0f1;
+  color: set-text-color ($primary-color);
 }
 
 .card {
@@ -64,6 +64,6 @@ main {
   margin-left: auto;
   padding: 5px 20px;
   border-radius: 20px;
-  background-color: $primary-color;
-  filter: brightness(90%);
+  background-color: darken($primary-color, 10);
+
 }

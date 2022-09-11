@@ -2,8 +2,8 @@
     display: inline-block;
     font-size: 1.6rem;
     font-weight: 600;
-    color: rgb(255, 255, 255);
-    background-color: rgb(113, 89, 193);
+    color: set-text-color ($primary-color);
+    background-color: $primary-color;
     margin: 15px 0px 0px;
     padding: 12px 30px;
     text-decoration: none;
