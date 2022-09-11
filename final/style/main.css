@@ -105,33 +105,10 @@ section.hero p {
   margin: 10px 0px 0px;
 }
 
-section.hero {
-  margin: 80px 0;
+main {
+  margin-bottom: 80px;
 }
 
-section.hero .container {
-  width: 90%;
-  max-width: 980px;
-  margin: auto;
-  display: flex;
-}
-
-section.hero p {
-  color: rgb(154, 142, 191);
-  font-size: 1.8rem;
-  line-height: 3.2rem;
-  margin: 10px 0px 0px;
-}
-
-/*=============== 
-HERO
-==================*/
-/*=============== 
-MAIN
-==================*/
-/*=============== 
-CARDS
-==================*/
 .cards {
   width: 90%;
   max-width: 980px;
@@ -197,9 +174,6 @@ CARDS
   filter: brightness(90%);
 }
 
-/*=============== 
-MODAL
-==================*/
 .modal-overlay {
   display: flex;
   align-items: center;
@@ -295,9 +269,6 @@ MODAL
   transform: translate(-50%, -50%);
 }
 
-/*=============== 
-FORM
-==================*/
 #form {
   width: 100%;
   background: #7159c1;
